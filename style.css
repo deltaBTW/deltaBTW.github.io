@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body {
+    background-color: #1f2033;
+    font-family: 'Outfit';
+    color: white;
+    text-align: center;
+    margin: 11.8%
+}
+
+svg {
+    height: 24px;
+    fill: white;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: skyblue;
+}
+
+i {
+    font-size: x-large;
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: whitesmoke;
+        color: black;
+    }
+
+    svg {
+        fill: black;
+    }
+
+    a, a:hover {
+        color: blue;
+    }
+}
+
+ /* unvisited link */
+a:link {
+  color: lightslategray;
+}
+
+/* visited link */
+a:visited {
+  color: lightslategray;
+}
+
+/* mouse over link */
+a:hover {
+  color: deepskyblue;
+}
+
+/* selected link */
+a:active {
+  color: lightskyblue;
+} 

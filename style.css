@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+ body {
+  font-family: Outfit;
+  background-color: #1e1e2e;
+  color: #ffffff;
+  text-align: center;
+ }
+
+.container {
+ height: 100vh;
+ max-width: 600px;
+ margin: auto;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ padding: 1rem;
+}
+
+.header {
+ margin: 0.25rem 0;
+ font-size: 2.5rem;
+}
+
+p {
+ margin: 0.5rem 0;
+ font-size: 22px;
+}
+
+
+button {
+        display: inline-block;
+        background-color: #cba6f7;
+        padding: 10px;
+        width: 100px;
+        color: #000000;
+        text-align: center;
+        border: 4px #cdd6f4;
+        border-radius: 5px;
+        font-size: 15px;
+        cursor: pointer; 
+        margin: 5px; 
+        -webkit-transition: all 0.5s; 
+        -moz-transition: all 0.5s; 
+        -o-transition: all 0.5s; 
+        transition: all 0.5s; 
+      }
+
+button:hover {
+  background-color: #cba6f7;
+  color: #ffffff;
+}
+
+/* animation class and keyframes */
+.overflow-hidden {
+ overflow: hidden;
+}
+
+.drop-in {
+ animation: drop-in 1s ease 200ms backwards;
+}
+
+.drop-in-2 {
+ animation: drop-in 1200ms ease 500ms backwards;
+}
+
+@keyframes drop-in {
+ from {
+  opacity: 0;
+  transform: translateY(-100px);
+ }
+ to {
+  opacity: 1;
+  transform: translate(0px);
+ }
+}
+
